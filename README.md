@@ -29,7 +29,8 @@
 - [Send mail using SMTP](python/sendmail.py): Script to send mail using SMTP from linux machine.
 - [Pass string values to SQL query](python/string_params_in_sql.py): Pass multiple string parameters to SQL query.
 - [Function pointer in python](python/python_function_pointer.py): Simulate function pointer(as in C language) in python.
-- [Fibonacci number, memoized](python/memoized_fibonacci.py): Performance comparison to find nth fibonacci(using recursive approach) number with and without memoization.
+- [Memoization using function](python/memoization_using_function.py): Program to show memoization using function decorator.
+- [Fibonacci number, memoization using class](python/memoization_using_class.py): Performance comparison to find nth fibonacci(using recursive approach) number with and without memoization.
 - [Named-tuples](python/named_tuple.py): Few snippets to work with named tuples in python.
 - [Optional mutable arguments](python/mutable_default_arguments.py): Optional mutable arguments retains its value in subsequent calls.
 - [Connect MySQL in python](python/connect_mysql.py): Python program to connect and execute query on MySQL.
@@ -67,6 +68,7 @@
 - [Pandas basics](python/pandas_usage.py): Basic functions, operations in pythons pandas.
 - [Heap module](python/heapq_module.py): heapq module in python - In built min heap.
 - [Telnet module](python/check_alive_using_telnet.py): Check if (IP, PORT) is running using telnet.
+- [Log rotation](python/log-rotate.py): Log rotation example.
 
 ## CPP
 - [Strings in C++](cpp/strings.cc): Basic operations with strings in C++.
