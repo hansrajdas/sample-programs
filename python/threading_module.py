@@ -22,7 +22,7 @@ for i in range(10):
 
 
 time.sleep(7)
-print '\n\nAnother example of threading using class(prime checker)...'
+print('\n\nAnother example of threading using class(prime checker)...')
 time.sleep(1)
 
 class primeNumber(threading.Thread):
@@ -46,14 +46,14 @@ class primeNumber(threading.Thread):
 
 threads = []
 while True:
-    num = long(input('\nEnter number(0 to exit): '))
+    num = int(input('\nEnter number(0 to exit): '))
     if 1 > num:
         break
     thread = primeNumber(num)
     threads.append(thread)
     thread.start()
 
-print '\nJoining all threads...'
+print('\nJoining all threads...')
 for x in threads:
     x.join()
 
