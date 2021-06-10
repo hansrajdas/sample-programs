@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Battleship	battleship.py	/^class Battleship:$/;"	c
+Board	board.py	/^class Board:$/;"	c
+Player	battleship.py	/^class Player:$/;"	c
+States	board.py	/^class States(enum.Enum):$/;"	c
+__init__	battleship.py	/^    def __init__(self, name):$/;"	m	class:Player
+__init__	board.py	/^    def __init__(self, name):$/;"	m	class:Board
+battleship	main.py	/^import battleship$/;"	i
+battleship.py	battleship.py	1;"	F
+board	battleship.py	/^import board$/;"	i
+board.py	board.py	1;"	F
+check_all_ships_down	battleship.py	/^    def check_all_ships_down(self):$/;"	m	class:Player
+empty	board.py	/^    empty = 0$/;"	v	class:States
+enum	board.py	/^import enum$/;"	i
+fire	battleship.py	/^    def fire(self, p1, p2, i, j):$/;"	m	class:Battleship
+hit	board.py	/^    hit = 2$/;"	v	class:States
+main	main.py	/^def main():$/;"	f
+main.py	main.py	1;"	F
+miss	board.py	/^    miss = 3$/;"	v	class:States
+ship	board.py	/^    ship = 1$/;"	v	class:States
+take_input	battleship.py	/^    def take_input(self):$/;"	m	class:Player
+update_fire_logs	battleship.py	/^    def update_fire_logs(self, hit_or_miss):$/;"	m	class:Player
+update_state	battleship.py	/^    def update_state(self, i, j):$/;"	m	class:Player
