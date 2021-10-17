@@ -1,7 +1,5 @@
 # Sample and demo programs
 
-#### **: If there multiple solutions for a given solution, go with this.
-
 ## C language
 - [Matrix traversal](matrix_traversal_performance.c): Traversing matrix row wise in C is more efficient than column wise.
 - [Function pointers in C](function_pointer_arrays.c): Function pointer array in C language.
@@ -38,7 +36,7 @@
 - [Map, filter, reduce](python/map_filter_reduce.py): Map, filter and reduce in python.
 - [__new__ usage](python/new_method.py): Overwriting __new__ method to implement singleton pattern.
 - [Singleton pattern, using __new__](python/singleton_class_using_new.py): Implement singleton in python by overwriting __new__ method.
-- [Singleton pattern, using decorator\*\*](python/singleton_class_using_decorator.py): Implement singleton in python using decorator.
+- [Singleton pattern, using decorator](python/singleton_class_using_decorator.py): Implement singleton in python using decorator. This is recommended way of singleton pattern.
 - [Make class iterable](python/make_class_iterable.py): Make an user defined class iterable, define __iter__ and __next__.
 - [Define a class](python/class_defining.py): Define a class and instance methods.
 - [Data/Static class variables](python/class_data_variable.py): Create, access and update class/static variables.
