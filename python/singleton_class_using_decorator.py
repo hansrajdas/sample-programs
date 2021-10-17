@@ -35,10 +35,10 @@ class MyClass():
 
 
 obj1 = MyClass()
-print id(obj1)
+print(id(obj1))
 
 obj2 = MyClass()
-print id(obj2)
+print(id(obj2))
 
 # Output:
 # ******************
