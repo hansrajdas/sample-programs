@@ -1,4 +1,4 @@
-# Sample and demo programs
+# Sample programs
 
 ## C language
 - [Matrix traversal](matrix_traversal_performance.c): Traversing matrix row wise in C is more efficient than column wise.
@@ -73,10 +73,12 @@
 - [Vectors](cpp/vectors.cc): Basic functions/operations on C++ vectors.
 - [HashMaps](cpp/hashmaps.cc): Basic operations with C++ hash maps.
 
-## Others
+## Golang
 - [Slice and bool](others/slice_bool.go): Slice and bool demo in goLang.
+- [Init and main execution](others/init_and_main.go): Show sequence of execution of init() and main()
+
+## Others
 - [Merge PDFs first page](others/merge_all_pdfs_first_page.sh): Script to merge first page of all PDF files found in current directory and sub-directories.
 - [Compare database](others/db_cmp.sh): Compares 2 sqlite3 database files.
 - [Check database integrity](others/db_backup.sh): Checks sqlite3 database integrity and copies from backup if corrupted.
 - [Replace strings](others/replace.sh): Replaces set of strings to corresponding new ones.
-- [Init and main execution](others/init_and_main.go): Show sequence of execution of init() and main()
