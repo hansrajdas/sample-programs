@@ -5,3 +5,8 @@
 
 ### Revisit [golang tour](https://tour.golang.org/moretypes/8)
 - Slices are like references to arrays
+- Slice length and capacity
+
+### References
+- https://tour.golang.org/welcome/1
+- https://golang.org/doc/effective_go
