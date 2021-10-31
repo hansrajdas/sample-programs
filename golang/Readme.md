@@ -5,9 +5,14 @@
 - Methods with pointer receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/6
 - methods with value receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/7
 
-### Revisit [golang tour]
+### Revisit [golang tour](https://tour.golang.org)
 - Slices are like references to arrays
 - Slice length and capacity
+- Interfaces
+  - https://tour.golang.org/methods/9
+  - https://tour.golang.org/methods/10
+  - ...
+  - Empty interface, for holding any type of data: https://tour.golang.org/methods/14
 
 ### References
 - https://tour.golang.org/welcome/1
