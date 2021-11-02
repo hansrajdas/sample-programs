@@ -12,7 +12,10 @@
   - https://tour.golang.org/methods/9
   - https://tour.golang.org/methods/10
   - ...
-  - Empty interface, for holding any type of data: https://tour.golang.org/methods/14
+  - https://tour.golang.org/methods/14 - Empty interface, for holding any type of data
+- Type switches: https://tour.golang.org/methods/16
+- Stringers: https://tour.golang.org/methods/17 - this is like __str__ in python
+- Errors: https://tour.golang.org/methods/19
 
 ### References
 - https://tour.golang.org/welcome/1
