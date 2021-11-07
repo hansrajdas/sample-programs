@@ -12,10 +12,19 @@
   - https://tour.golang.org/methods/9
   - https://tour.golang.org/methods/10
   - ...
-  - https://tour.golang.org/methods/14 - Empty interface, for holding any type of data
+  - Empty interface, for holding any type of data: https://tour.golang.org/methods/14
 - Type switches: https://tour.golang.org/methods/16
-- Stringers: https://tour.golang.org/methods/17 - this is like __str__ in python
+- Stringers(this is like __str__ in python): https://tour.golang.org/methods/17
 - Errors: https://tour.golang.org/methods/19
+- Channels
+  - https://tour.golang.org/concurrency/2
+  - https://tour.golang.org/concurrency/3
+  - https://tour.golang.org/concurrency/4
+- Select
+  - https://tour.golang.org/concurrency/5
+  - https://tour.golang.org/concurrency/6
+- sync.Mutex: https://tour.golang.org/concurrency/9
+- Various links: https://tour.golang.org/concurrency/11
 
 ### References
 - https://tour.golang.org/welcome/1
