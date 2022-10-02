@@ -84,3 +84,4 @@
 - [Compare database](others/db_cmp.sh): Compares 2 sqlite3 database files.
 - [Check database integrity](others/db_backup.sh): Checks sqlite3 database integrity and copies from backup if corrupted.
 - [Replace strings](others/replace.sh): Replaces set of strings to corresponding new ones.
+- [List git taggers](others/list_git_taggers.sh): List all git taggers.
