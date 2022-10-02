@@ -74,8 +74,8 @@
 - [HashMaps](cpp/hashmaps.cc): Basic operations with C++ hash maps.
 
 ## Golang
-- [Slice and bool](others/slice_bool.go): Slice and bool demo in goLang.
-- [Init and main execution](others/init_and_main.go): Show sequence of execution of init() and main()
+- [Slice and bool](golang/slice_bool.go): Slice and bool demo in goLang.
+- [Init and main execution](golang/init_and_main.go): Show sequence of execution of init() and main()
 
 ## Others
 - [Merge PDFs first page](others/merge_all_pdfs_first_page.sh): Script to merge first page of all PDF files found in current directory and sub-directories.
