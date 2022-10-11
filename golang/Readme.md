@@ -2,8 +2,9 @@
 - Golang only has one looping construct `for` which serves all purpose
 - Golang switch case doesn't need break in each case, it executes only matching case. In C all cases after matching case gets executed if we don't break
 - Golang doesn't support pointer arithematic as supported in C
+- Using struct pointers, golang permits accessing members using dot `p.x` or `(*p).x` and in C arrow notation is used access members `p->x`
 - Methods with pointer receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/6
-- methods with value receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/7
+- Methods with value receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/7
 
 ### Revisit [golang tour](https://tour.golang.org)
 - Slices are like references to arrays
