@@ -18,6 +18,8 @@
 - Stringers(this is like __str__ in python): https://tour.golang.org/methods/17
 - Errors: https://tour.golang.org/methods/19
 - Channels
+  - Channels are thread-safe and using channels is the official way of communicating b/w goroutines.
+  - Secondaly, channels are unbuffered meaning both producers and consumers block until a value is put into or removed from the channel, respectively
   - https://tour.golang.org/concurrency/2
   - https://tour.golang.org/concurrency/3
   - https://tour.golang.org/concurrency/4
