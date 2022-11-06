@@ -29,6 +29,10 @@
 - sync.Mutex: https://tour.golang.org/concurrency/9
 - Various links: https://tour.golang.org/concurrency/11
 
+### Revisit [exercism](https://exercism.org/tracks/go)
+- https://exercism.org/tracks/go/concepts/runes
+
 ### References
 - https://tour.golang.org/welcome/1
 - https://golang.org/doc/effective_go
+- https://exercism.org/tracks/go
