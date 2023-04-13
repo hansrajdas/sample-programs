@@ -8,7 +8,7 @@
 
 ## Golang tour
 - https://tour.golang.org
-- Importand points
+- Important points
   - Slices are like references to arrays
   - Slice length and capacity
   - Interfaces
