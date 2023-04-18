@@ -6,8 +6,13 @@
 - Methods with pointer receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/6
 - Methods with value receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/7
 
+## Go mod and sum file
+https://golangbyexample.com/go-mod-sum-module/
+- `go.mod`: It defines both project's dependencies requirement and also locks them to their correct version.
+- `go.sum`: This file lists down the checksum of direct and indirect dependency required along with the version. The checksum present in go.sum file is used to validate the checksum of each of direct and indirect dependency to confirm that none of them has been modified.
+
 ## Golang tour
-- https://tour.golang.org
+https://tour.golang.org
 - Important points
   - Slices are like references to arrays
   - Slice length and capacity
@@ -32,10 +37,11 @@
   - Various links: https://tour.golang.org/concurrency/11
 
 ## Exercism golang track
-- https://exercism.org/tracks/go
+https://exercism.org/tracks/go
 - Revisit below concepts
     - https://exercism.org/tracks/go/concepts/runes
 
 ## Pending
 - https://go.dev/doc/code
 - https://golang.org/doc/effective_go
+- https://golangbyexample.com/golang-comprehensive-tutorial/
