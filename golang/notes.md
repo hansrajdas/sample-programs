@@ -41,7 +41,18 @@ https://exercism.org/tracks/go
 - Revisit below concepts
     - https://exercism.org/tracks/go/concepts/runes
 
+## How to write Go code
+https://go.dev/doc/code
+- Go programs are organized into __packages__. A package is a collection of source files in the same directory that are compiled together.
+- A repository contains one or more __modules__. A module is a collection of related Go packages that are released together. A Go repository typically contains only one module, located at the root of the repository.
+
+```shell
+go install <module-path>
+# This command builds the hello command, producing an executable binary. It then installs that binary as $HOME/go/bin/hello
+# The install directory is controlled by the GOPATH and GOBIN environment variables.
+```
+- The `go mod tidy` command adds missing module requirements for imported packages and removes requirements on modules that aren't used anymore.
+
 ## Pending
-- https://go.dev/doc/code
 - https://golang.org/doc/effective_go
 - https://golangbyexample.com/golang-comprehensive-tutorial/
