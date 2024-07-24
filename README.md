@@ -76,6 +76,7 @@
 
 ## Golang
 - [Notes](golang/notes.md): Golang notes.
+- [Snippets](golang/snippets.md): Some golang code snippets.
 - [Slice and bool](golang/slice_bool.go): Slice and bool demo in goLang.
 - [Init and main execution](golang/init_and_main.go): Show sequence of execution of init() and main().
 - [Flags package](golang/flags.go): `flags` package usage.
