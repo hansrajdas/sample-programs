@@ -5,6 +5,7 @@
 - Using struct pointers, golang permits accessing members using dot `p.x` or `(*p).x` and in C arrow notation is used access members `p->x`
 - Methods with pointer receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/6
 - Methods with value receivers take either a value or a pointer as the receiver when they are called: https://tour.golang.org/methods/7
+- Unlike in C, it's perfectly OK to return the address of a local variable in Go; the storage associated with the variable survives after the function returns.
 
 ## Go mod and sum file
 https://golangbyexample.com/go-mod-sum-module/
@@ -38,8 +39,8 @@ https://tour.golang.org
 
 ## Exercism golang track
 https://exercism.org/tracks/go
-- Revisit below concepts
-    - https://exercism.org/tracks/go/concepts/runes
+- Revisit
+  - https://exercism.org/tracks/go/concepts/runes
 
 ## How to write Go code
 https://go.dev/doc/code
@@ -53,6 +54,12 @@ go install <module-path>
 ```
 - The `go mod tidy` command adds missing module requirements for imported packages and removes requirements on modules that aren't used anymore.
 
+## Effective Go
+https://golang.org/doc/effective_go
+- Indentation: We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
+- Line length: Go has no line length limit. Don't worry about overflowing a punched card. If a line feels too long, wrap it and indent with an extra tab.
+- Allocation with new: `new(T)` allocates zeroed storage for a new item of type T and returns its address, a value of type `*T`. In Go terminology, it returns a pointer to a newly allocated zero value of type T.
+- Allocation with make: The built-in function `make(T, args)`. It creates slices, maps, and channels only, and it returns an initialized (not zeroed) value of type T (not `*T`).
+
 ## Pending
-- https://golang.org/doc/effective_go
 - https://golangbyexample.com/golang-comprehensive-tutorial/
