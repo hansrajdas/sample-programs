@@ -79,3 +79,31 @@ if s.isEmpty() { ...}
 s.pop()
 s.push(9)
 ```
+
+### Goroutines/Channels (print ping pong)
+```go
+func main() {
+	n := 5
+	var wg sync.WaitGroup
+	ch := make(chan string)
+
+	wg.Add(2)
+	go func(n int) {
+		defer wg.Done()
+		for i := 0; i < n; i++ {
+			ch <- "ping"
+			fmt.Println(<-ch)
+		}
+	}(n)
+
+	go func(n int) {
+		defer wg.Done()
+		for i := 0; i < n; i++ {
+			fmt.Println(<-ch)
+			ch <- "pong"
+		}
+	}(n)
+
+	wg.Wait()
+}
+```
